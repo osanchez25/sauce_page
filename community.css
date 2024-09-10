@@ -1,0 +1,1725 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap'); 
+  body {  
+    font-family:sans-serif;
+  }  
+* { 
+    box-sizing: border-box;
+} 
+
+html { 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    font-family: sans-serif;
+} 
+
+html { 
+    height: 100%;
+} 
+
+body { 
+    margin: 0;
+} 
+
+body { 
+    color: #333; 
+    background-color: #fff; 
+    min-height: 100%; 
+    margin: 0; 
+    font-family: Arial,sans-serif; 
+    font-size: 14px; 
+    line-height: 20px;
+} 
+
+body { 
+    color: #474141; 
+    font-family: Montserrat,sans-serif; 
+    font-size: 18px; 
+    font-weight: 500;
+} 
+
+.w-nav { 
+    z-index: 1000; 
+    background: #ddd; 
+    position: relative;
+} 
+
+.navbar { 
+    background-color: #fff; 
+    justify-content: center; 
+    width: 100%; 
+    height: 91px; 
+    display: flex; 
+    position: fixed;
+} 
+
+.w-nav:before,.w-nav:after { 
+    content: " "; 
+    grid-area: 1/1/2/2; 
+    display: table;
+} 
+
+.w-nav:after { 
+    clear: both;
+} 
+
+.c-nav-shim { 
+    width: 100%; 
+    height: 91px;
+} 
+
+.c-m18 { 
+    background-color: #fdfaf2; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: stretch; 
+    display: flex; 
+    position: relative;
+} 
+
+.c-m19 { 
+    justify-content: center; 
+    display: flex;
+} 
+
+.c-m8 { 
+    background-color: #474141; 
+    justify-content: center; 
+    display: flex;
+} 
+
+.eapps-widget { 
+    -webkit-font-smoothing: antialiased; 
+    animation: none; 
+    animation-delay: 0; 
+    animation-direction: normal; 
+    animation-duration: 0; 
+    animation-fill-mode: none; 
+    animation-iteration-count: 1; 
+    animation-name: none; 
+    animation-play-state: running; 
+    animation-timing-function: ease; 
+    backface-visibility: visible; 
+    background: 0; 
+    background-attachment: scroll; 
+    background-clip: border-box; 
+    background-color: transparent; 
+    background-image: none; 
+    background-origin: padding-box; 
+    background-position: 0 0; 
+    background-position-x: 0; 
+    background-position-y: 0; 
+    background-repeat: repeat; 
+    background-size: auto auto; 
+    border: 0; 
+    border-style: none; 
+    border-width: medium; 
+    border-color: inherit; 
+    border-bottom: 0; 
+    border-bottom-color: inherit; 
+    border-bottom-left-radius: 0; 
+    border-bottom-right-radius: 0; 
+    border-bottom-style: none; 
+    border-bottom-width: medium; 
+    border-collapse: separate; 
+    border-image: none; 
+    border-left: 0; 
+    border-left-color: inherit; 
+    border-left-style: none; 
+    border-left-width: medium; 
+    border-radius: 0; 
+    border-right: 0; 
+    border-right-color: inherit; 
+    border-right-style: none; 
+    border-right-width: medium; 
+    border-spacing: 0; 
+    border-top: 0; 
+    border-top-color: inherit; 
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0; 
+    border-top-style: none; 
+    border-top-width: medium; 
+    bottom: auto; 
+    box-shadow: none; 
+    box-sizing: content-box; 
+    caption-side: top; 
+    clear: none; 
+    clip: auto; 
+    color: inherit; 
+    columns: auto; 
+    column-count: auto; 
+    column-fill: balance; 
+    column-gap: normal; 
+    column-rule: medium none currentColor; 
+    column-rule-color: currentColor; 
+    column-rule-style: none; 
+    column-rule-width: none; 
+    column-span: 1; 
+    column-width: auto; 
+    content: normal; 
+    counter-increment: none; 
+    counter-reset: none; 
+    direction: ltr; 
+    empty-cells: show; 
+    float: none; 
+    font: normal; 
+    font-family: inherit; 
+    font-size: medium; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: normal; 
+    height: auto; 
+    hyphens: none; 
+    left: auto; 
+    letter-spacing: normal; 
+    line-height: normal; 
+    list-style: none; 
+    list-style-image: none; 
+    list-style-position: outside; 
+    list-style-type: disc; 
+    margin: 0; 
+    margin-bottom: 0; 
+    margin-left: 0; 
+    margin-right: 0; 
+    margin-top: 0; 
+    opacity: 1; 
+    orphans: 0; 
+    outline: 0; 
+    outline-color: invert; 
+    outline-style: none; 
+    outline-width: medium; 
+    overflow: visible; 
+    overflow-x: visible; 
+    overflow-y: visible; 
+    padding: 0; 
+    padding-bottom: 0; 
+    padding-left: 0; 
+    padding-right: 0; 
+    padding-top: 0; 
+    page-break-after: auto; 
+    page-break-before: auto; 
+    page-break-inside: auto; 
+    perspective: none; 
+    perspective-origin: 50% 50%; 
+    position: static; 
+    quotes: '\201C' '\201D' '\2018' '\2019'; 
+    right: auto; 
+    tab-size: 8; 
+    table-layout: auto; 
+    text-align: inherit; 
+    text-align-last: auto; 
+    text-decoration: none; 
+    text-decoration-color: inherit; 
+    text-decoration-line: none; 
+    text-decoration-style: solid; 
+    text-indent: 0; 
+    text-shadow: none; 
+    text-transform: none; 
+    top: auto; 
+    transform: none; 
+    transform-style: flat; 
+    transition: none; 
+    transition-delay: 0s; 
+    transition-duration: 0s; 
+    transition-property: none; 
+    transition-timing-function: ease; 
+    unicode-bidi: normal; 
+    vertical-align: baseline; 
+    visibility: visible; 
+    white-space: normal; 
+    widows: 0; 
+    width: auto; 
+    word-spacing: normal; 
+    z-index: auto; 
+    background-repeat-x: repeat; 
+    background-repeat-y: repeat;
+} 
+
+.eapps-instagram-feed { 
+    font-size: 14px; 
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif; 
+    line-height: 18px; 
+    font-weight: 400; 
+    width: 100%; 
+    max-height: 100%; 
+    position: relative; 
+    box-sizing: border-box; 
+    min-width: 150px; 
+    min-height: 100px;
+} 
+
+div.eapps-widget { 
+    position: relative;
+} 
+
+.eapps-widget.eapps-instagram-feed-popup { 
+    position: fixed; 
+    z-index: 999999; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    opacity: 0; 
+    visibility: hidden; 
+    pointer-events: none; 
+    box-sizing: border-box; 
+    background: rgba(0,0,0,0.8);
+} 
+
+#eapps-instagram-feed-popup-1 { 
+    background: rgba(43, 43, 43, 0.9);
+} 
+
+canvas { 
+    vertical-align: baseline; 
+    display: inline-block;
+} 
+
+.c-nav__container { 
+    flex: 1; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    height: 100%; 
+    padding-left: 110px; 
+    padding-right: 20px; 
+    display: flex; 
+    position: relative; 
+    overflow: hidden;
+} 
+
+.w-nav-overlay { 
+    width: 100%; 
+    display: none; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    right: 0; 
+    overflow: hidden;
+} 
+
+.c-m18__container { 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    max-width: 1440px; 
+    padding: 0 0 0 110px; 
+    display: flex; 
+    position: relative; 
+    overflow: hidden;
+} 
+
+.c-m19-container { 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    max-width: 1440px; 
+    padding: 60px 110px; 
+    display: flex; 
+    overflow: hidden;
+} 
+
+.c-m8__container { 
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 1440px; 
+    padding: 90px 110px; 
+    display: flex;
+} 
+
+.eapps-instagram-feed-popup-mobile-panel { 
+    background: #f8f8f8; 
+    border-bottom: 1px solid #f1f1f1; 
+    display: none; 
+    height: 56px; 
+    position: fixed; 
+    z-index: 10; 
+    top: 0; 
+    right: 0; 
+    left: 0; 
+    align-items: center; 
+    box-sizing: border-box; 
+    padding: 0 12px;
+} 
+
+.eapps-instagram-feed-popup-wrapper { 
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch;
+} 
+
+.eapps-instagram-feed-popup-close { 
+    position: fixed; 
+    top: 20px; 
+    left: 50%; 
+    width: 32px; 
+    height: 32px; 
+    margin-left: 332px; 
+    cursor: pointer; 
+    z-index: 11; 
+    opacity: .7; 
+    transform: rotate(45deg); 
+    transition: all .25s ease;
+} 
+
+.eapps-instagram-feed-popup-close:before,.eapps-instagram-feed-popup-close:after { 
+    content: ''; 
+    display: block; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    border-radius: 10px; 
+    background: #fff; 
+    transition: all .25s ease;
+} 
+
+.eapps-instagram-feed-popup-close:before { 
+    width: 24px; 
+    height: 2px; 
+    margin: -1px 0 0 -12px;
+} 
+
+.eapps-instagram-feed-popup-close:after { 
+    width: 2px; 
+    height: 24px; 
+    margin: -12px 0 0 -1px;
+} 
+
+.eapps-instagram-feed-popup-close:hover { 
+    opacity: 1;
+} 
+
+.eapps-instagram-feed-popup-scroll-indicator { 
+    display: block; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    margin-top: -26px; 
+    margin-left: 332px; 
+    text-align: center; 
+    z-index: 11; 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: all .6s ease;
+} 
+
+a { 
+    background-color: transparent;
+} 
+
+a { 
+    color: #8b0304; 
+    font-weight: 700; 
+    text-decoration: none;
+} 
+
+.w-nav-brand { 
+    float: left; 
+    color: #333; 
+    text-decoration: none; 
+    position: relative;
+} 
+
+.brand { 
+    flex: none;
+} 
+
+a:active,a:hover { 
+    outline: 0;
+} 
+
+a:hover { 
+    text-decoration: underline;
+} 
+
+nav { 
+    display: block;
+} 
+
+.w-nav-menu { 
+    float: right; 
+    position: relative;
+} 
+
+.nav-menu { 
+    flex: none; 
+    justify-content: flex-end; 
+    align-items: center; 
+    display: flex;
+} 
+
+.w-nav-button { 
+    float: right; 
+    cursor: pointer; 
+    -webkit-tap-highlight-color: transparent; 
+    tap-highlight-color: transparent; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    padding: 18px; 
+    font-size: 24px; 
+    display: none; 
+    position: relative;
+} 
+
+.c-m18__intro { 
+    width: 55%; 
+    position: static;
+} 
+
+.c-m18__hero-img-wrap { 
+    flex: none; 
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr; 
+    grid-auto-columns: 1fr; 
+    justify-content: flex-end; 
+    align-items: flex-start; 
+    width: 45%; 
+    padding-top: 25px; 
+    display: block; 
+    position: relative; 
+    overflow: hidden;
+} 
+
+@media screen and (min-width: 1440px){ 
+  .c-m18__hero-img-wrap { 
+    grid-template-rows: auto auto; 
+    grid-template-columns: 1fr 1fr; 
+    grid-auto-columns: 1fr; 
+    justify-content: center; 
+    align-items: center;
+  } 
+}     
+
+.c-m7__elfsight-embed { 
+    width: 100%; 
+    margin-top: 30px;
+} 
+
+.w-embed:before,.w-embed:after { 
+    content: " "; 
+    grid-area: 1/1/2/2; 
+    display: table;
+} 
+
+.w-embed:after { 
+    clear: both;
+} 
+
+.c-m8__form-n-legal { 
+    flex-direction: column; 
+    flex: 0 auto; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 60%; 
+    padding-right: 20px; 
+    display: flex;
+} 
+
+.c-m8__social { 
+    border-left: 1px solid rgba(255,255,255,.3); 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    width: 40%; 
+    padding-left: 45px; 
+    display: flex;
+} 
+
+.eapps-instagram-feed-popup-mobile-panel-title { 
+    display: block; 
+    width: 100%; 
+    text-align: center; 
+    color: #000; 
+    font-size: 16px; 
+    font-weight: 600; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    padding: 0 40px;
+} 
+
+.eapps-instagram-feed-popup-inner { 
+    width: 100%; 
+    padding-bottom: 100vh; 
+    max-width: 640px; 
+    margin: 0 auto; 
+    position: relative; 
+    z-index: 3;
+} 
+
+.eapps-instagram-feed-popup-scroll-indicator-mouse { 
+    position: relative; 
+    display: block; 
+    width: 32px; 
+    height: 52px; 
+    margin: 0 auto 4px; 
+    box-sizing: border-box; 
+    border: 2px solid #fff; 
+    border-radius: 23px; 
+    opacity: .5;
+} 
+
+img { 
+    border: 0;
+} 
+
+img { 
+    vertical-align: middle; 
+    max-width: 100%; 
+    display: inline-block;
+} 
+
+.w-nav-link { 
+    vertical-align: top; 
+    color: #222; 
+    text-align: left; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 20px; 
+    text-decoration: none; 
+    display: inline-block; 
+    position: relative;
+} 
+
+.nav-link { 
+    opacity: .6; 
+    color: #474141; 
+    flex: none; 
+    font-family: Montserrat,sans-serif; 
+    font-size: 16px; 
+    font-weight: 600;
+} 
+
+.nav-link:hover { 
+    opacity: 1; 
+    text-decoration: none;
+} 
+
+.w-nav-link.w--current { 
+    color: #0082f3;
+} 
+
+.nav-link.w--current { 
+    opacity: 1; 
+    color: #8b0304;
+} 
+
+.nav-link.w--current:hover { 
+    opacity: .6;
+} 
+
+.nav-red-button-wrapper { 
+    flex: none; 
+    margin-left: 15px;
+} 
+
+h1 { 
+    margin: .67em 0; 
+    font-size: 2em;
+} 
+
+h1 { 
+    margin-bottom: 10px; 
+    font-weight: 700;
+} 
+
+h1 { 
+    margin-top: 20px; 
+    font-size: 38px; 
+    line-height: 44px;
+} 
+
+h1 { 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    font-size: 72px; 
+    font-weight: 800; 
+    line-height: 100%;
+} 
+
+.c-linebreak-red { 
+    background-color: #8b0304; 
+    border-radius: 2px; 
+    width: 53px; 
+    height: 4px; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+} 
+
+p { 
+    margin-top: 0; 
+    margin-bottom: 10px;
+} 
+
+p { 
+    margin-bottom: 10px; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 140%;
+} 
+
+.social-wrapper { 
+    margin-top: 20px; 
+    display: flex;
+} 
+
+#eapps-instagram-feed-1 { 
+    width: 100%;
+} 
+
+h5 { 
+    margin-bottom: 10px; 
+    font-weight: 700;
+} 
+
+h5 { 
+    margin-top: 10px; 
+    font-size: 14px; 
+    line-height: 20px;
+} 
+
+h5 { 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font-family: Montserrat,sans-serif; 
+    font-size: 26px; 
+    font-weight: 500; 
+    line-height: 100%;
+} 
+
+.c-m8__title { 
+    color: #fff; 
+    line-height: 120%;
+} 
+
+.w-form { 
+    margin: 0 0 15px;
+} 
+
+.c-m8__form { 
+    width: 100%; 
+    margin-top: 15px; 
+    margin-bottom: 79px; 
+    margin-left: 4px;
+} 
+
+.c-m8__legals-desktop { 
+    margin-left: -12px;
+} 
+
+.social-footer-wrapper { 
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-top: 25px; 
+    margin-bottom: 115px; 
+    display: flex;
+} 
+
+.c-m8__legals-mobile { 
+    display: none;
+} 
+
+.tb-copyright { 
+    color: rgba(255,255,255,.3); 
+    text-align: right; 
+    width: 100%; 
+    font-size: 12px;
+} 
+
+.eapps-instagram-feed-popup-scroll-indicator-mouse-wheel { 
+    position: absolute; 
+    display: block; 
+    top: 12px; 
+    left: 50%; 
+    width: 4px; 
+    height: 4px; 
+    margin-left: -2px; 
+    background: #fff; 
+    border-radius: 50%; 
+    animation: eapps-instagram-feed-popup-scroll-indicator 1.5s cubic-bezier(.32,0,.6,1.01) infinite;
+} 
+
+.w-button { 
+    color: #fff; 
+    line-height: inherit; 
+    cursor: pointer; 
+    background-color: #3898ec; 
+    border: 0; 
+    border-radius: 0; 
+    padding: 9px 15px; 
+    text-decoration: none; 
+    display: inline-block;
+} 
+
+.nav-red-button { 
+    color: #fff; 
+    background-color: #8b0304; 
+    border: 2px solid #8b0304; 
+    border-radius: 36px; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 7px 15px; 
+    font-family: Montserrat,sans-serif; 
+    font-size: 16px; 
+    font-weight: 600; 
+    transition: color .3s,background-color .3s; 
+    display: inline-block; 
+    box-shadow: 0 10px 20px rgba(0,0,0,.05);
+} 
+
+.nav-red-button:hover { 
+    color: #8b0304; 
+    background-color: transparent; 
+    text-decoration: none;
+} 
+
+.paragraph-highlight { 
+    color: #8b0304; 
+    font-weight: 700;
+} 
+
+.w-inline-block { 
+    max-width: 100%; 
+    display: inline-block;
+} 
+
+.red-social-button { 
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-right: 58px; 
+    display: flex;
+} 
+
+.red-social-button:hover { 
+    text-decoration: none;
+} 
+
+.eapps-instagram-feed-container { 
+    width: 100%;
+} 
+
+.form { 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: flex;
+} 
+
+.w-form-done { 
+    text-align: center; 
+    background-color: #ddd; 
+    padding: 20px; 
+    display: none;
+} 
+
+.success-message { 
+    color: #fff; 
+    background-color: transparent; 
+    border: 2px solid #fff; 
+    border-radius: 24px; 
+    height: 48px; 
+    padding-top: 13px; 
+    padding-bottom: 10px; 
+    font-size: 16px;
+} 
+
+.w-form-fail { 
+    background-color: #ffdede; 
+    margin-top: 10px; 
+    padding: 10px; 
+    display: none;
+} 
+
+.error-message { 
+    background-color: transparent; 
+    padding: 0;
+} 
+
+.tb-footer-legal { 
+    background-color: transparent; 
+    font-size: 14px;
+} 
+
+.instageam-white { 
+    color: #fff; 
+    align-items: center; 
+    margin-right: 40px; 
+    display: flex;
+} 
+
+.facebook-white { 
+    color: #fff; 
+    align-items: center; 
+    display: flex;
+} 
+
+.social-icon-red { 
+    margin-right: 11px;
+} 
+
+.social-icon-grey { 
+    margin-right: 11px; 
+    display: none; 
+    position: absolute;
+} 
+
+.social-label { 
+    color: #8b0304; 
+    font-size: 16px; 
+    font-weight: 500;
+} 
+
+.eapps-instagram-feed-content { 
+    position: relative; 
+    width: 100%;
+} 
+
+input { 
+    color: inherit; 
+    font: inherit; 
+    margin: 0;
+} 
+
+input { 
+    line-height: normal;
+} 
+
+.w-input { 
+    color: #333; 
+    vertical-align: middle; 
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    width: 100%; 
+    height: 38px; 
+    margin-bottom: 10px; 
+    padding: 8px 12px; 
+    font-size: 14px; 
+    line-height: 1.42857; 
+    display: block;
+} 
+
+.text-field { 
+    color: #fff; 
+    background-color: transparent; 
+    border: 2px solid #fff; 
+    border-radius: 24px; 
+    width: 100%; 
+    max-width: 423px; 
+    height: 48px; 
+    margin-bottom: 0; 
+    margin-right: 18px; 
+    padding-left: 18px; 
+    font-size: 16px;
+} 
+
+.green-button { 
+    color: #fff; 
+    background-color: #77a240; 
+    border: 2px solid #77a240; 
+    border-radius: 36px; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 13px 30px; 
+    font-family: Montserrat,sans-serif; 
+    font-size: 16px; 
+    font-weight: 600; 
+    transition: background-color .3s; 
+    display: inline-block;
+} 
+
+input.w-button { 
+    -webkit-appearance: button;
+} 
+
+.text-block-4 { 
+    text-align: left;
+} 
+
+.div-block-9 { 
+    align-items: center; 
+    display: flex;
+} 
+
+.image-3 { 
+    margin-right: 10px;
+} 
+
+.c-soclai-insta-white-label { 
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: 500;
+} 
+
+.eapps-instagram-feed-title { 
+    font-size: 24px; 
+    font-weight: 600; 
+    text-align: center; 
+    line-height: 32px; 
+    padding: 24px 10px;
+} 
+
+.eapps-instagram-feed-container div:empty  { 
+    display: block;
+} 
+
+.eapps-instagram-feed-posts-container { 
+    width: 100%;
+} 
+
+.eapps-instagram-feed-content-loader { 
+    color: rgba(0,0,0,0.2);
+} 
+
+.eapps-instagram-feed-loader { 
+    box-sizing: border-box; 
+    display: block; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    border-radius: 50%; 
+    border-style: solid; 
+    border-top-color: transparent; 
+    animation: eapps-instagram-feed-loader 1s infinite linear; 
+    opacity: 0; 
+    visibility: hidden; 
+    width: 32px; 
+    height: 32px; 
+    margin: -16px 0 0 -16px; 
+    border-width: 2px; 
+    z-index: 1;
+} 
+
+.eapps-instagram-feed-data-status { 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    padding: 16px; 
+    border-radius: 8px; 
+    background: #fff; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+    z-index: 99999999; 
+    opacity: 0; 
+    visibility: hidden; 
+    pointer-events: none; 
+    transition: all .2s ease; 
+    max-width: 320px;
+} 
+
+.div-block-8 { 
+    color: #fff; 
+    text-align: center; 
+    background-color: #ef5334; 
+    border-radius: 20px; 
+    justify-content: center; 
+    align-items: center; 
+    width: 29px; 
+    height: 29px; 
+    margin-right: 10px; 
+    font-weight: 700; 
+    display: flex;
+} 
+
+.text-block-2 { 
+    color: #fff; 
+    font-weight: 500;
+} 
+
+.eapps-instagram-feed-posts { 
+    width: 100%;
+} 
+
+.eapps-instagram-feed-posts-inner { 
+    box-sizing: border-box; 
+    position: relative;
+} 
+
+.eapps-instagram-feed-posts-grid .eapps-instagram-feed-posts-inner  { 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+} 
+
+.eapps-instagram-feed-posts-grid-load-more-container { 
+    display: none;
+} 
+
+.eapps-instagram-feed-posts-grid-load-more-container.eapps-instagram-feed-posts-grid-load-more-enabled { 
+    display: block;
+} 
+
+.eapps-instagram-feed-posts-view { 
+    display: inline-flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
+    box-sizing: border-box; 
+    width: 100%; 
+    height: auto;
+} 
+
+.eapps-instagram-feed-posts-grid-load-more { 
+    position: relative; 
+    width: 228px; 
+    height: 32px; 
+    line-height: 32px; 
+    border-radius: 4px; 
+    border: none; 
+    background: #3897f0; 
+    color: #fff; 
+    text-align: center; 
+    outline: none; 
+    cursor: pointer; 
+    margin: 24px auto; 
+    font-size: 14px; 
+    transition: opacity .5s ease,visibility .5s ease,background .2s ease; 
+    opacity: 0; 
+    visibility: hidden;
+} 
+
+.eapps-instagram-feed-posts-grid-load-more-visible { 
+    opacity: 1; 
+    visibility: visible;
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more  { 
+    background: rgb(56, 151, 240);
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more  { 
+    background-color: transparent !important; 
+    width: 180px !important;
+} 
+
+.eapps-instagram-feed-posts-grid-load-more:hover { 
+    background: #45a1f8;
+} 
+
+.eapps-instagram-feed-posts-item { 
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    position: relative; 
+    background: #fff; 
+    transition: opacity .2s ease,visibility .2s ease; 
+    opacity: 0; 
+    visibility: hidden; 
+    overflow: hidden; 
+    flex-grow: 0; 
+    flex-shrink: 0;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile { 
+    user-select: none;
+} 
+
+.eapps-instagram-feed-posts-grid .eapps-instagram-feed-posts-item  { 
+    display: flex; 
+    flex-direction: column; 
+    flex-grow: 0;
+} 
+
+.eapps-instagram-feed-posts-item-visible.eapps-instagram-feed-posts-item-loaded { 
+    opacity: 1; 
+    visibility: visible;
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item  { 
+    color: rgb(0, 0, 0);
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more-text  { 
+    width: auto; 
+    height: 48px; 
+    padding-top: 6px; 
+    padding-right: 30px; 
+    padding-left: 30px; 
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: rgb(139, 3, 4); 
+    border-radius: 36px; 
+    background-color: rgb(139, 3, 4); 
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 20px 0px; 
+    transition-property: color, background-color; 
+    transition-duration: 300ms, 300ms; 
+    transition-timing-function: ease, ease; 
+    font-family: Montserrat; 
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    font-weight: 600;
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more-text:hover { 
+    background-color: transparent; 
+    color: rgb(139, 3, 4); 
+    text-decoration: none;
+} 
+
+.eapps-instagram-feed-posts-grid-load-more .eapps-instagram-feed-loader  { 
+    width: 12px; 
+    height: 12px; 
+    margin: -7px 0 0 -7px;
+} 
+
+.eapps-instagram-feed-posts-item-link { 
+    cursor: pointer;
+} 
+
+.eapps-instagram-feed a  { 
+    text-decoration: none; 
+    color: #000; 
+    margin: 0;
+} 
+
+.eapps-instagram-feed-posts-item a  { 
+    color: #003569;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-link  { 
+    width: 100%; 
+    box-sizing: border-box; 
+    display: flex;
+} 
+
+#eapps-instagram-feed-1 a  { 
+    text-decoration: none; 
+    color: #000; 
+    margin: 0;
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a  { 
+    color: rgb(0, 0, 0);
+} 
+
+.eapps-instagram-feed a:hover { 
+    text-decoration: underline;
+} 
+
+.eapps-instagram-feed-posts-item a , .eapps-instagram-feed-posts-item a:hover { 
+    color: #003569;
+} 
+
+#eapps-instagram-feed-1 a:hover { 
+    text-decoration: underline;
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a , #eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a:hover { 
+    color: rgb(0, 0, 0);
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item, #eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-content, #eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-text, #eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a, #eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a:hover { 
+    color: rgb(0, 0, 0);
+} 
+
+.eapps-instagram-feed-posts-item a, .eapps-instagram-feed-posts-item a:hover { 
+    color: #003569;
+} 
+
+#eapps-instagram-feed-1 a:hover, #eapps-instagram-feed-popup-1 a:hover { 
+    text-decoration: underline;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-media  { 
+    width: 100%;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-overlay  { 
+    position: absolute; 
+    z-index: 2; 
+    top: -1px; 
+    right: -1px; 
+    bottom: -1px; 
+    left: -1px; 
+    opacity: 0; 
+    visibility: hidden; 
+    pointer-events: none; 
+    transition: opacity .3s,visibility .3s; 
+    text-align: center; 
+    box-sizing: border-box; 
+    color: #fff; 
+    background: rgba(0,0,0,0.8); 
+    display: flex; 
+    align-items: center;
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-overlay  { 
+    background: rgba(0, 0, 0, 0.8);
+} 
+
+ .eapps-instagram-feed-posts-item-with-data:hover.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-overlay { 
+    opacity: 1; 
+    visibility: visible; 
+    pointer-events: all; 
+    padding-top: 0;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-overlay-hover, .eapps-instagram-feed-posts-item-with-data:hover.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-overlay { 
+    opacity: 1; 
+    visibility: visible; 
+    pointer-events: all; 
+    padding-top: 0;
+} 
+
+.eapps-instagram-feed-posts-item-image-wrapper { 
+    padding-top: 100%; 
+    position: relative; 
+    overflow: hidden; 
+    margin: -1px;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-content  { 
+    transform: translateY(10%); 
+    width: 80%; 
+    max-height: 80%; 
+    margin: 0 auto; 
+    position: relative; 
+    transition: .3s all ease;
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-overlay .eapps-instagram-feed-posts-item-content  { 
+    color: rgb(255, 255, 255);
+} 
+
+.eapps-instagram-feed-posts-item-with-data:hover.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-content { 
+    transform: translateY(0);
+} 
+
+.eapps-instagram-feed-posts-item-image { 
+    position: absolute !important; 
+    margin: 0 !important; 
+    width: auto; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%) !important;
+} 
+
+.eapps-instagram-feed-posts-item-image-portrait .eapps-instagram-feed-posts-item-image  { 
+    width: 100%;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-image  { 
+    transition: transform .3s ease,filter .3s; 
+    left: 50%; 
+    transform: scale(1) translate(-50%,-50%); 
+    transform-origin: 0 0; 
+    backface-visibility: hidden;
+} 
+
+.eapps-instagram-feed-posts-item-with-data:hover.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-image { 
+    transform: scale(1.1) translate(-50%,-50%); 
+    transform-origin: 0 0; 
+    filter: grayscale(1);
+} 
+
+.eapps-instagram-feed-posts-item-image-icon { 
+    display: none; 
+    position: absolute; 
+    z-index: 2; 
+    top: .6em; 
+    right: .6em; 
+    width: 24px; 
+    height: 24px; 
+    transition: all .3s ease;
+} 
+
+.eapps-instagram-feed-posts-item-with-data:hover.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-image-icon { 
+    opacity: 0;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-text  { 
+    font-size: 14px; 
+    line-height: 21px; 
+    display: inline-block; 
+    overflow: hidden; 
+    margin-top: 12%; 
+    text-align: center; 
+    max-height: 84px; 
+    width: 100%;
+} 
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-overlay .eapps-instagram-feed-posts-item-text  { 
+    color: rgb(255, 255, 255);
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-text-clone  { 
+    opacity: 0; 
+    visibility: hidden; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    max-height: none;
+} 
+
+.eapps-instagram-feed-posts-item-type-video .eapps-instagram-feed-posts-item-image-icon-video  { 
+    display: block;
+} 
+
+.eapps-instagram-feed-posts-item-image-landscape .eapps-instagram-feed-posts-item-image  { 
+    height: 100% !important; 
+    min-width: 100%; 
+    max-width: inherit !important;
+} 
+
+svg:not(:root) { 
+    overflow: hidden;
+} 
+
+.eapps-instagram-feed-posts-item-image-icon svg  { 
+    display: block; 
+    width: 24px; 
+    height: 24px; 
+    fill: rgba(255,255,255,0.8);
+} 
+
+.eapps-instagram-feed-posts-item-likes-count { 
+    display: inline-flex; 
+    align-items: center;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-likes-count  { 
+    min-width: 70px; 
+    justify-content: center;
+} 
+
+.eapps-instagram-feed-posts-item-comments-count { 
+    display: inline-flex; 
+    align-items: center;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-comments-count  { 
+    min-width: 70px; 
+    justify-content: center;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-likes-count + .eapps-instagram-feed-posts-item-comments-count  { 
+    margin-left: 20px;
+} 
+
+.eapps-instagram-feed-posts-item-likes-count-icon { 
+    fill: currentColor; 
+    width: 24px; 
+    height: 24px;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-likes-count-icon  { 
+    width: 24px; 
+    height: 24px;
+} 
+
+.eapps-instagram-feed-posts-item-likes-count-label { 
+    margin-left: 6px; 
+    font-size: 14px;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-likes-count-label  { 
+    font-size: 16px;
+} 
+
+.eapps-instagram-feed-posts-item-comments-count-icon { 
+    fill: currentColor; 
+    width: 24px; 
+    height: 24px;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-comments-count-icon  { 
+    width: 24px; 
+    height: 24px;
+} 
+
+.eapps-instagram-feed-posts-item-comments-count-label { 
+    margin-left: 6px; 
+    font-size: 14px;
+} 
+
+.eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-comments-count-label  { 
+    font-size: 16px;
+} 
+
+
+@keyframes eapps-instagram-feed-popup-scroll-indicator { 
+  0% {  
+      opacity: 1; 
+      transform: scale(1) translateY(0); 
+      opacity: 1; 
+      transform: scale(1) translateY(0px); 
+  }  
+  90% {  
+      opacity: 0; 
+      transform: scale(.7) translateY(32px); 
+      opacity: 0; 
+      transform: scale(0.7) translateY(32px); 
+  }  
+  95% {  
+      opacity: 0; 
+      transform: scale(1) translateY(0); 
+      opacity: 0; 
+      transform: scale(1) translateY(0px); 
+  }  
+  100% {  
+      opacity: 1; 
+      transform: scale(1) translateY(0); 
+      opacity: 1; 
+      transform: scale(1) translateY(0px); 
+  }  
+
+} 
+@keyframes eapps-instagram-feed-loader { 
+  0% {  
+      transform: rotate(0deg); 
+      transform: rotate(0deg); 
+  }  
+  100% {  
+      transform: rotate(360deg); 
+      transform: rotate(360deg); 
+  }  
+
+} 
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-xo8f6.style-xo8f6 {  
+   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-xWDsQ.style-xWDsQ {  
+   -webkit-user-select: text;  
+}  
+#style-b1Crb.style-b1Crb {  
+   display: none;  
+}  
+#style-3Esjp.style-3Esjp {  
+   min-height: 0px;  
+    margin: -5px;  
+    width: 1230px;  
+}  
+#style-PhPV8.style-PhPV8 {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-kUkVi.style-kUkVi {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-gC8i7.style-gC8i7 {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-BBIw3.style-BBIw3 {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-4eQB4.style-4eQB4 {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-5brVZ.style-5brVZ {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-9ofgG.style-9ofgG {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-33Gzi.style-33Gzi {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-r5iJf.style-r5iJf {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-48vxp.style-48vxp {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-WQZUB.style-WQZUB {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-aIAKv.style-aIAKv {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-iJCqZ.style-iJCqZ {  
+   top: 114px;  
+    left: 870px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-SgiJQ.style-SgiJQ {  
+   top: 114px;  
+    left: 1446px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-COYVZ.style-COYVZ {  
+   top: 658px;  
+    left: 870px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-IRqWg.style-IRqWg {  
+   top: 114px;  
+    left: 868px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-NNDOj.style-NNDOj {  
+   top: -2px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-KdTfa.style-KdTfa {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-d2dOx.style-d2dOx {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-IVl1s.style-IVl1s {  
+   top: -2px;  
+    left: -2px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-To6oR.style-To6oR {  
+   top: 0px;  
+    left: 0px;  
+    position: absolute;  
+}  
+#snipcss-kiwi.style-vFN1S {  
+   left: 1412px;  
+    top: 0px;  
+}  
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-DI1Pa.style-DI1Pa {  
+   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-T28hl.style-T28hl {  
+   -webkit-user-select: text;  
+}  
+#style-QwCpI.style-QwCpI {  
+   display: none;  
+}  
+#style-vNJKU.style-vNJKU {  
+   min-height: 0px;  
+    margin: -5px;  
+    width: 1230px;  
+}  
+#style-iY5AC.style-iY5AC {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-j5gzg.style-j5gzg {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-VnQF5.style-VnQF5 {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-Bhwxe.style-Bhwxe {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-mliDN.style-mliDN {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-Komft.style-Komft {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-bHVfE.style-bHVfE {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-owZKa.style-owZKa {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-sSJYQ.style-sSJYQ {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-saUvX.style-saUvX {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-iNr8h.style-iNr8h {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-CpNRT.style-CpNRT {  
+   width: calc(25% - 10px);  
+    margin: 5px;  
+}  
+#style-YCO7Y.style-YCO7Y {  
+   top: 114px;  
+    left: 870px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-S6Kdv.style-S6Kdv {  
+   top: 114px;  
+    left: 1446px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-rcgOt.style-rcgOt {  
+   top: 658px;  
+    left: 870px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-9K7Er.style-9K7Er {  
+   top: 114px;  
+    left: 868px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-e542V.style-e542V {  
+   top: -2px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-1EQTt.style-1EQTt {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-ZSTkt.style-ZSTkt {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-D3qBe.style-D3qBe {  
+   top: -2px;  
+    left: -2px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-jf68v.style-jf68v {  
+   top: 0px;  
+    left: 0px;  
+    position: absolute;  
+}  
+#snipcss-kiwi.style-wEoQV {  
+   left: 1412px;  
+    top: 0px;  
+}  

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap'); 
+  body {  
+    background:#ddd;
+    color:#474141;
+    font-family:sans-serif;
+    font-size:18px;
+    line-height:20px;
+    font-weight:500;
+  }  
+* { 
+    box-sizing: border-box;
+} 
+
+body { 
+    margin: 0;
+} 
+
+body { 
+    color: #333; 
+    background-color: #fff; 
+    min-height: 100%; 
+    margin: 0; 
+    font-family: Arial,sans-serif; 
+    font-size: 14px; 
+    line-height: 20px;
+} 
+
+body { 
+    color: #474141; 
+    font-family: Montserrat,sans-serif; 
+    font-size: 18px; 
+    font-weight: 500;
+} 
+
+html { 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    font-family: sans-serif;
+} 
+
+html { 
+    height: 100%;
+} 
+
+.c-nav__container { 
+    flex: 1; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    height: 100%; 
+    padding-left: 110px; 
+    padding-right: 20px; 
+    display: flex; 
+    position: relative; 
+    overflow: hidden;
+} 
+
+a { 
+    background-color: transparent;
+} 
+
+a { 
+    color: #8b0304; 
+    font-weight: 700; 
+    text-decoration: none;
+} 
+
+.w-nav-brand { 
+    float: left; 
+    color: #333; 
+    text-decoration: none; 
+    position: relative;
+} 
+
+.brand { 
+    flex: none;
+} 
+
+a:active,a:hover { 
+    outline: 0;
+} 
+
+a:hover { 
+    text-decoration: underline;
+} 
+
+nav { 
+    display: block;
+} 
+
+.w-nav-menu { 
+    float: right; 
+    position: relative;
+} 
+
+.nav-menu { 
+    flex: none; 
+    justify-content: flex-end; 
+    align-items: center; 
+    display: flex;
+} 
+
+.w-nav-button { 
+    float: right; 
+    cursor: pointer; 
+    -webkit-tap-highlight-color: transparent; 
+    tap-highlight-color: transparent; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    padding: 18px; 
+    font-size: 24px; 
+    display: none; 
+    position: relative;
+} 
+
+img { 
+    border: 0;
+} 
+
+img { 
+    vertical-align: middle; 
+    max-width: 100%; 
+    display: inline-block;
+} 
+
+.w-nav-link { 
+    vertical-align: top; 
+    color: #222; 
+    text-align: left; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 20px; 
+    text-decoration: none; 
+    display: inline-block; 
+    position: relative;
+} 
+
+.nav-link { 
+    opacity: .6; 
+    color: #474141; 
+    flex: none; 
+    font-family: Montserrat,sans-serif; 
+    font-size: 16px; 
+    font-weight: 600;
+} 
+
+.nav-link:hover { 
+    opacity: 1; 
+    text-decoration: none;
+} 
+
+.w-nav-link.w--current { 
+    color: #0082f3;
+} 
+
+.nav-link.w--current { 
+    opacity: 1; 
+    color: #8b0304;
+} 
+
+.nav-link.w--current:hover { 
+    opacity: .6;
+} 
+
+.nav-red-button-wrapper { 
+    flex: none; 
+    margin-left: 15px;
+} 
+
+.w-button { 
+    color: #fff; 
+    line-height: inherit; 
+    cursor: pointer; 
+    background-color: #3898ec; 
+    border: 0; 
+    border-radius: 0; 
+    padding: 9px 15px; 
+    text-decoration: none; 
+    display: inline-block;
+} 
+
+.nav-red-button { 
+    color: #fff; 
+    background-color: #8b0304; 
+    border: 2px solid #8b0304; 
+    border-radius: 36px; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 7px 15px; 
+    font-family: Montserrat,sans-serif; 
+    font-size: 16px; 
+    font-weight: 600; 
+    transition: color .3s,background-color .3s; 
+    display: inline-block; 
+    box-shadow: 0 10px 20px rgba(0,0,0,.05);
+} 
+
+.nav-red-button:hover { 
+    color: #8b0304; 
+    background-color: transparent; 
+    text-decoration: none;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-A9yCS.style-A9yCS {  
+   -webkit-user-select: text;  
+}  
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-V7LQG.style-V7LQG {  
+   -webkit-user-select: text;  
+}  
